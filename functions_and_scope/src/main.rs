@@ -20,5 +20,4 @@ fn main() {
     unsafe {
         println!("R = {}", R);
     }
-    
 }
