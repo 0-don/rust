@@ -1,3 +1,6 @@
+#[allow(unused_variables)]
+#[allow(unused_assignments)]
+
 fn main() {
     println!("Hello, world!");
     println!("My name is {} and I'm {} years old", "John", 21);
