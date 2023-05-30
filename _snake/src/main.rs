@@ -3,6 +3,7 @@
 #![allow(unused_mut)]
 #![allow(unused_imports)]
 #![allow(dead_code)]
+#![windows_subsystem = "windows"]
 
 use game::Game;
 use piston_window::types::Color;

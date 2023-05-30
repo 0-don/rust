@@ -2,13 +2,13 @@
 name = "_snake"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 piston_window = "0.128.0"
 rand = "0.8.5"
 
 
-[target.x86_64-unknown-linux-musl]
-linker = "rust-lld"
+[build-dependencies]
+winres = "0.1.12"
